@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Idealized torque-link arm free-body diagram</title>
+  <desc id="desc">A pin-holed flat link arm in axial tension with an applied force pair. This is a simplified analytical model, not a full scissor-link assembly.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#dc2626"/></marker>
+  </defs>
+  <rect width="900" height="480" rx="22" fill="#f8fafc"/>
+  <text x="42" y="48" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#0f172a">IDEALIZED TORQUE-LINK ARM · FREE-BODY MODEL</text>
+  <text x="42" y="75" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Single flat link in axial load · simplified screening assumptions only</text>
+  <!-- Flat link outline with pin holes -->
+  <path d="M250 150 Q250 125 275 125 H625 Q650 125 650 150 V330 Q650 355 625 355 H275 Q250 355 250 330 Z" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <circle cx="450" cy="165" r="25" fill="#fff" stroke="#334155" stroke-width="4"/>
+  <circle cx="450" cy="315" r="25" fill="#fff" stroke="#334155" stroke-width="4"/>
+  <line x1="450" y1="93" x2="450" y2="131" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="450" y1="387" x2="450" y2="349" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="475" y="108" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#991b1b">F(t)</text>
+  <text x="475" y="393" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#991b1b">F(t)</text>
+  <line x1="280" y1="240" x2="620" y2="240" stroke="#64748b" stroke-dasharray="7 7" stroke-width="2"/>
+  <text x="450" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#475569">axial load path (idealized)</text>
+  <!-- Net section callout -->
+  <line x1="650" y1="165" x2="745" y2="165" stroke="#64748b" stroke-width="2"/>
+  <line x1="650" y1="315" x2="745" y2="315" stroke="#64748b" stroke-width="2"/>
+  <line x1="730" y1="178" x2="730" y2="302" stroke="#0f766e" stroke-width="3"/>
+  <text x="748" y="226" font-family="Arial,sans-serif" font-size="14" fill="#0f766e">pin-hole</text>
+  <text x="748" y="247" font-family="Arial,sans-serif" font-size="14" fill="#0f766e">net section</text>
+  <text x="42" y="430" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Not a full landing-gear assembly FBD. Load derivation, pin contact, bending and lateral forces are omitted.</text>
+</svg>
