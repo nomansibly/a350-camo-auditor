@@ -33,6 +33,10 @@ Sources: [Airbus A350-900 specifications](https://www.aircraft.airbus.com/en/air
 
 All aircraft, engine, repair, directive, and engineering-order records in this project are synthetic examples. They do not describe Finnair or any real operator. Thresholds and maintenance intervals are illustrative placeholders, not certified limits or approved instructions. The project is for software-learning purposes only; it must not be used for maintenance planning, dispatch, release to service, or airworthiness decisions. Always use current approved technical data and the operator's authorized procedures.
 
+## Engineering analysis companion
+
+The repository also includes a separate [landing-gear torque-link fatigue screening study](engineering/torque-link-fatigue/README.md). It demonstrates net-section stress, Goodman-corrected Basquin life, Miner damage accumulation, a simplified mass estimate, and generated CSV/JSON/SVG outputs from synthetic inputs. It is an analytical illustration rather than FEA or a safe-life substantiation; the companion README lists its assumptions and limitations.
+
 ## Run
 
 Requires Python 3.10 or later. The demo uses only the Python standard library.
@@ -53,6 +57,7 @@ The script creates an in-memory SQLite database, loads synthetic sample records,
 
 - `a350_camo_auditor.py` — runnable demonstration and SQLite schema
 - `a350-900-schematic.svg` — illustrative top-view aircraft schematic
+- `engineering/torque-link-fatigue/` — standalone analytical fatigue-screening companion
 - `README.md` — project overview, specifications, and usage
 
 ## Possible extensions
