@@ -36,4 +36,4 @@ The script creates an in-memory SQLite database, loads synthetic sample records,
 
 ## License
 
-This project is provided under the 
+This project is provided under the MIT License. See `LICENSE`.
