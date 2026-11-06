@@ -25,7 +25,7 @@ Representative public specifications for the A350-900 are summarized below. Perf
 | Cruise speed | Mach 0.85 |
 | Maximum take-off weight | 250 t (Basic); higher-weight configurations are available |
 | Range | Configuration-dependent; Airbus lists 7,500 nm for the Basic configuration and up to 9,700 nm for the A350-900ULR |
-| Airframe materials | Airbus reports 53% composite materials by airframe share |
+| Materials mix | Airbus reports over 70% advanced materials, including 53% composites |
 
 Sources: [Airbus A350-900 specifications](https://www.aircraft.airbus.com/en/aircraft/a350/a350-900) and [Airbus A350 Family Facts and Figures (March 2026 PDF)](https://mediaassets.airbus.com/pm_38_875_875661-0tw0rakiue.pdf?fileName=airbus-a350-family-facts-and-figures-march-2026.pdf). The range and weight values depend on variant and configuration; the ULR range is specific to that version.
 
