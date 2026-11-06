@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Airbus A350-900 top-view schematic</title>
+  <desc id="desc">Illustrative top view showing fuselage, swept wings, two engines, and Airbus-published overall length and wingspan. Not to scale.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#334155"/>
+    </marker>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="0.48" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" x2="1">
+      <stop offset="0" stop-color="#bfdbfe"/>
+      <stop offset="1" stop-color="#93c5fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="620" rx="24" fill="#f8fafc"/>
+  <text x="48" y="52" fill="#0f172a" font-family="Arial, sans-serif" font-size="25" font-weight="700">AIRBUS A350-900 · TOP VIEW</text>
+  <text x="48" y="80" fill="#475569" font-family="Arial, sans-serif" font-size="15">Illustrative schematic · geometry not to scale · dimensions shown for reference</text>
+
+  <!-- Main wing, swept and symmetric about the fuselage centerline. -->
+  <path d="M390 270 L545 112 Q559 99 574 108 L671 160 L497 296 Z" fill="url(#wing)" stroke="#2563eb" stroke-width="3"/>
+  <path d="M390 350 L545 508 Q559 521 574 512 L671 460 L497 324 Z" fill="url(#wing)" stroke="#2563eb" stroke-width="3"/>
+  <!-- Horizontal tailplane. -->
+  <path d="M635 278 L700 225 Q710 218 720 222 L763 246 L700 294 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <path d="M635 342 L700 395 Q710 402 720 398 L763 374 L700 326 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <!-- Vertical tail and rudder, represented in plan view. -->
+  <path d="M710 286 L777 267 L797 278 L797 342 L777 353 L710 334 Z" fill="#60a5fa" stroke="#2563eb" stroke-width="3"/>
+
+  <!-- Engine nacelles beneath the wings. -->
+  <g fill="#334155" stroke="#0f172a" stroke-width="2">
+    <path d="M427 181 Q438 170 452 176 L491 196 Q500 201 496 211 L487 226 Q482 234 472 230 L433 211 Q421 205 427 181 Z"/>
+    <path d="M427 439 Q438 450 452 444 L491 424 Q500 419 496 409 L487 394 Q482 386 472 390 L433 409 Q421 415 427 439 Z"/>
+  </g>
+  <g fill="none" stroke="#cbd5e1" stroke-width="3">
+    <path d="M433 187 Q444 201 434 207"/>
+    <path d="M433 433 Q444 419 434 413"/>
+  </g>
+
+  <!-- Fuselage, nose left, tail right. -->
+  <path d="M164 310 Q169 285 197 278 L239 272 L693 272 Q734 272 764 300 L777 310 L764 320 Q734 348 693 348 L239 348 L197 342 Q169 335 164 310 Z" fill="url(#body)" stroke="#1e293b" stroke-width="3"/>
+  <path d="M174 308 Q183 297 199 294 L211 294 L211 326 L199 326 Q183 323 174 312 Z" fill="#1e3a5f"/>
+  <path d="M237 280 L237 340" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M686 278 L686 342" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M254 310 H681" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="5 7"/>
+
+  <!-- Dimension lines. -->
+  <line x1="164" y1="400" x2="797" y2="400" stroke="#334155" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="164" y1="361" x2="164" y2="411" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="797" y1="360" x2="797" y2="411" stroke="#64748b" stroke-width="1.5"/>
+  <rect x="398" y="384" width="166" height="32" rx="8" fill="#f8fafc"/>
+  <text x="481" y="406" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="700">66.80 m length</text>
+
+  <line x1="842" y1="108" x2="842" y2="512" stroke="#334155" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="574" y1="108" x2="852" y2="108" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="574" y1="512" x2="852" y2="512" stroke="#64748b" stroke-width="1.5"/>
+  <text x="863" y="301" fill="#0f172a" font-family="Arial, sans-serif" font-size="17" font-weight="700" transform="rotate(90 863 301)">64.75 m wingspan</text>
+
+  <text x="48" y="570" fill="#334155" font-family="Arial, sans-serif" font-size="14">Twin-engine widebody · 2 × Rolls-Royce Trent XWB-84</text>
+  <text x="48" y="594" fill="#64748b" font-family="Arial, sans-serif" font-size="12">For educational reference only. This is not an Airbus engineering drawing or maintenance document.</text>
+</svg>
